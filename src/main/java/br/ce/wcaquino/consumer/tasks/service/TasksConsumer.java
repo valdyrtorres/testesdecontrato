@@ -10,7 +10,7 @@ import br.ce.wcaquino.consumer.utils.RequestHelper;
 
 @SuppressWarnings("unchecked")
 public class TasksConsumer {
-	private RequestHelper helper = new RequestHelper();
+	private RequestHelper helper = new RequestHelper(); // API
 	private String tasksURL;
 
 	public TasksConsumer(String tasksURL) {
